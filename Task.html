@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:wght@500;700&family=Outfit&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2 id="Title">TASK MANAGER</h2>
+        </nav>
+    </header>
+    <div id="Container">
+        <div id="Container_Text">
+            <textarea name="Text_Input" id="Text_Input" cols="30" rows="10" placeholder="Create your new task here..."></textarea>
+            <button onclick="createTask()" id="Create_button">Create</button>
+        </div>
+        <div id="Container_ToDo">
+            <h2>TO DO</h2>
+            <div id="to_Do">
+            </div>
+        </div>
+        <div id="Container_Doing">
+            <h2>DOING</h2>
+            <div id="doing">
+            </div>
+        </div>
+        <div id="Container_Done">
+            <h2>DONE</h2>
+            <div  id="done">
+            </div>
+        </div>
+    </div>
+    <script src="./Task.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

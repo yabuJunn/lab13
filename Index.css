@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    background: black;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    float: left;
+    margin-top: 8px;
+    color:#F1F2ED;
+}
+#Title{
+    font-family: 'Merienda', cursive;
+    margin-left: 90px;
+}
+#Container{
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:space-evenly;
+}
+#Container_Text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    width: 40vw;
+    margin-left: 90px;
+    height: 100vh;
+}
+#Container_Text textarea{
+    background-color:#F1F2ED;
+    width: 15vw;
+    height: 15vh;
+    border-radius: 15px;
+    border: none;
+    box-shadow: #482c1db4 5px 5px 5px;
+    margin-bottom: 20px;
+    resize: none;
+    border: transparent;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    padding: 20px;
+}
+#Container_Text textarea:focus{
+    outline: none;
+}
+#Container_Text textarea::-webkit-scrollbar {
+    display: none;
+}
+#Create_button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #323918;
+    font-family: 'Merienda', cursive;
+    color: aliceblue;
+}
+#Create_button:hover{
+    background-color: #4e6301;
+}
+#Create_button:active{
+    background-color: #B49E89;
+    color: black;
+}
+#Container_ToDo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 40vw;
+}
+#Container_ToDo h2{
+    font-family: 'Merienda', cursive;
+    color: #272b18;
+}
+.Task{
+    background-color:#F1F2ED;
+    width: 15vw;
+    height: 20vh;
+    border-radius: 15px;
+    border: none;
+    box-shadow: #482c1db4 5px 5px 5px;
+    margin-bottom: 20px;
+    resize: none;
+    border: transparent;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-size:small;
+    padding: 15px;
+    word-break:break-all;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+.Remove{
+    color:#F1F2ED;
+    background-color: #272b18;
+    font-family:'Merienda', cursive;
+    font-size:small;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: none;
+    margin-left: 205px;
+    margin-bottom: 10px;
+}
+.Remove:hover{
+    background-color:#4e6301;
+}
+.Remove:active{
+    background-color: #B49E89;
+    color: black;
+}
+.Buttons{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+}
+.Down{
+    background-color: #652120;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: none;
+    margin-left: 170px;
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:larger;
+    color: #F1F2ED;
+}
+.Down:hover{
+    background-color:#750200;
+}
+.Down:active{
+    background-color: #B49E89;
+    color: black;
+}
+.Add{
+    background-color: #214963;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:large;
+    color: #F1F2ED;
+}
+.Add:hover{
+    background-color: #0067ac;
+}
+.Add:active{
+    background-color: #B49E89;
+    color: black;
+}
+#Container_Doing{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 40vw;
+}
+#Container_Doing h2{
+    font-family: 'Merienda', cursive;
+    color: #272b18;
+}
+#Container_Done {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 40vw;
+}
+#Container_Done h2{
+    font-family: 'Merienda', cursive;
+    color: #272b18;
+}
